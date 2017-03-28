@@ -2,8 +2,52 @@
 <html>
   <head>
     <title>Reintroduction to the DOM</title>
+
+    <link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
   </head>
   <body>
-    
+    <h1>My HTML adventure</h1>
+
+    <p>
+    We're writing <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> markup to display in our <strong>browser</strong>
+    We're basically telling computers what to do. <strong>Neat!</strong>
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Element name</th>
+          <th>Display value</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>h1</td>
+          <td>block</td>
+        </tr>
+        <tr>
+          <td>p</td>
+          <td>block</td>
+        </tr>
+        <tr>
+          <td>strong</td>
+          <td>inline</td>
+        </tr>
+        <tr>
+          <td>em</td>
+          <td>inline</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div style="width: 300px">
+      <div class="flex items-center border rounded">
+        <img class="flex-none mr1" src="http://i.imgur.com/KveOp9g.png" alt="Scoopy Doo">
+        <div>
+          <h1 class="m0">Scoopy Doo</h1>
+          <small class="caps">Pet Detective</small>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
